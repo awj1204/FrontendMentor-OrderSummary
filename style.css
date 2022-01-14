@@ -1,0 +1,146 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.background-D {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+}
+
+a:link, a:hover, a:visited{ color: black; text-decoration: none;}
+/* a:visited { color: black; text-decoration: none;}
+a:hover { color: blue; text-decoration: underline;} */
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: 20px;
+    width: 430px;
+    height: 680px;
+    box-shadow: 10px 10px 30px -10px hsl(223, 47%, 23%);
+}
+
+.top-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.center {
+    margin-bottom: 20px;
+}
+
+h1 {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900;
+} 
+
+#main-text {
+    position: relative;
+    display: block;
+    width: 350px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    color:hsl(224, 23%, 55%);
+    line-height: 23px; 
+}
+
+.option {
+    position: relative;
+    width: 340px;
+    height: 80px;
+    margin-bottom: 65px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: hsl(225, 100%, 98%);      
+}
+
+.option > * {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon {
+    position: relative;
+    width: 38px;
+    margin-left: 18px;
+    margin-right: 14px;
+}
+
+.detail {
+    position: realtive;
+    margin-right: 20px;
+}
+
+.plan {
+    margin-bottom:3px;
+    font-weight: 700;
+}
+
+.price {
+    margin-top: 3px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    float: right;
+    left: -15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.change:link, .change:hover, .change:visited{ color: blue; text-decoration: underline;}
+
+.button {
+    position: relative;
+    width: 340px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+    background-color: hsl(245, 75%, 52%);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 13px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    
+    box-shadow: 0px 10px 30px -10px hsl(245, 75%, 52%);
+}
+
+#cancel {
+    
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 700;
+}
